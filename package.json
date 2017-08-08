@@ -1,0 +1,39 @@
+{
+  "name": "redux-history-example",
+  "version": "0.1.0",
+  "homepage": "https://redux-history.cape.io",
+  "private": true,
+  "dependencies": {
+    "cape-lodash": "^1.12.1",
+    "cape-redux": "^3.2.0",
+    "gh-pages": "^1.0.0",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-field": "^5.1.2",
+    "redux-field-connect": "^1.0.1",
+    "redux-history-sync": "^3.2.2",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "npm run upload",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "upload": "b2 sync --delete --replaceNewer build b2://cape-io/redux-history",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
