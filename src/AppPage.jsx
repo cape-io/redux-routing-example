@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css'
 import HistoryInput from './HistoryInput'
 import HistoryList from './HistoryList'
+import Menu from './Menu'
 
 function AppPage() {
   return (
@@ -11,6 +12,7 @@ function AppPage() {
         <h2>Redux History Sync</h2>
         <HistoryInput />
       </div>
+      <Menu />
       <HistoryList />
       <a href="https://github.com/cape-io/redux-history-example">github code</a>
     </div>
