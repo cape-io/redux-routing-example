@@ -9,13 +9,17 @@ import reducer from './reducer'
 // Create a menu and provide enough details for creating routes at the same time.
 export const menu = {
   foo: {
+    id: 'foo',
     routeId: 'foo',
     name: 'Foo',
+    position: 2,
   },
-  far: {
-    routeId: 'far',
-    name: 'Far Away',
+  doSomethin: {
+    action: 'sample',
+    id: 'doSomethin',
+    name: 'Dispatch Sample Action',
     route: false,
+    position: 1,
   },
   me: {
     id: 'me',
@@ -23,6 +27,7 @@ export const menu = {
     routePath: '/user/:userId',
     userId: 1,
     name: 'Profile',
+    position: 3,
   },
 }
 
