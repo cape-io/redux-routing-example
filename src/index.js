@@ -1,19 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
-import App from './AppPage'
+import { renderRoot } from 'cape-router-component'
+
 import registerServiceWorker from './registerServiceWorker'
-import './index.css'
 import createStore from './createStore'
+import * as RouteIndex from './RouteIndex'
+import './index.css'
 
 /* global window */
 
 const store = createStore()
+const rootDestEl = window.document.getElementById('root')
 
-ReactDOM.render(
-  React.createElement(Provider, { store },
-    React.createElement(App, null)
-  ),
-  window.document.getElementById('root')
-)
+renderRoot({ rootDestEl, RouteIndex, store })
+
 registerServiceWorker()

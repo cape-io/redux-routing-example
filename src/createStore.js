@@ -29,6 +29,10 @@ export const menu = {
     name: 'Profile',
     position: 3,
   },
+  table: {
+    id: 'table',
+    name: 'Table',
+  },
 }
 
 export default function initStore() {
