@@ -31,6 +31,7 @@ export const menu = {
   },
   table: {
     id: 'table',
+    routeId: 'table',
     name: 'Table',
   },
 }
