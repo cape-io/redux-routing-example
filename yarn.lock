@@ -1499,6 +1499,27 @@ cape-redux@^3.1.0, cape-redux@^3.2.0:
     lodash "^4.17.2"
     redux "^3.6.0"
 
+cape-router-component@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/cape-router-component/-/cape-router-component-0.0.6.tgz#02d4affa85fb0ef1ffe6ea4c2c043cc933f6c700"
+  dependencies:
+    cape-router "^1.1.4"
+    lodash "^4.17.4"
+    prop-types "^15.5.10"
+    react "^15.6.1"
+    react-dom "^15.6.1"
+    react-redux "^5.0.6"
+
+cape-router@^1.1.4, cape-router@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/cape-router/-/cape-router-1.1.5.tgz#3db35b757490dc1e6a62a70c600e233a36f787bb"
+  dependencies:
+    cape-select "^2.4.0"
+    location-info "^4.5.0"
+    lodash "^4.17.4"
+    redux-history-sync "^3.2.2"
+    reselect "^3.0.1"
+
 cape-routes@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/cape-routes/-/cape-routes-1.1.1.tgz#4eebd2f8fb379671ca401e711eb51f8e3c5b73ef"
@@ -4266,6 +4287,17 @@ location-info@^4.0.3, location-info@^4.2.0, location-info@^4.4.0:
     reselect "^3.0.0"
     url-pattern "^1.0.2"
 
+location-info@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/location-info/-/location-info-4.5.0.tgz#07309ddade2046771060aa2722a51a95b8d66b79"
+  dependencies:
+    cape-lodash "^1.12.0"
+    cape-redux "^3.1.0"
+    cape-select "^2.4.0"
+    lodash "^4.17.4"
+    reselect "^3.0.0"
+    url-pattern "^1.0.2"
+
 lodash-es@^4.2.0, lodash-es@^4.2.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.4.tgz#dcc1d7552e150a0640073ba9cb31d70f032950e7"
@@ -5411,6 +5443,10 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-data-grid@^2.0.58:
+  version "2.0.58"
+  resolved "https://registry.yarnpkg.com/react-data-grid/-/react-data-grid-2.0.58.tgz#83946bf9cc34d144552349c343e15888c2c6293c"
+
 react-dev-utils@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-3.0.2.tgz#1a42263e9b6aa11dcb45d69dfe5eb1b354bd5531"
@@ -5466,7 +5502,7 @@ react-redux@^5.0.1, react-redux@^5.0.5:
     loose-envify "^1.1.0"
     prop-types "^15.5.10"
 
-react-redux@^5.0.4:
+react-redux@^5.0.4, react-redux@^5.0.6:
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.0.6.tgz#23ed3a4f986359d68b5212eaaa681e60d6574946"
   dependencies:
